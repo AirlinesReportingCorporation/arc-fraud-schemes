@@ -12,6 +12,11 @@ class App extends Component {
   }
 
   render() {
+  let alertOrder = [6, 1, 2, 3, 4, 5]
+  let newAlerts = alertOrder.map(function(alertOrder) {
+    return(alerts[alertOrder - 1]);
+  })
+  console.log(newAlerts);
     return (
       <div className="arc-fraud-schemes">
         <Stickynav
@@ -48,7 +53,7 @@ class App extends Component {
           </div>
           <br />
           <br />
-          <h2 class="mainTitle">
+          <h2 className="mainTitle">
             <a id="alerts"></a>Alerts
           </h2>
           <p>
@@ -59,9 +64,10 @@ class App extends Component {
           <hr />
           <div className="row">
             <div className="col-lg-12">
-              {alerts.map(function (alert) {
+              {newAlerts.map(function (alert) {
                 return (
                   <Accordion
+                    key={alert.id}
                     name={alert.name}
                     body={alert.body}
                     anchor={alert.anchor}
@@ -72,7 +78,7 @@ class App extends Component {
             </div>
           </div>
           <hr />
-          <h2 class="mainTitle">
+          <h2 className="mainTitle">
             <a id="schemes"></a>Schemes
           </h2>
           <div className="scheme-info">
