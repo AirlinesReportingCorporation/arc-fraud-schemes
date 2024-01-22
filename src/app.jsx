@@ -26,7 +26,10 @@ class App extends Component {
         <hr/>
           <div className="row">
             <div className="col-lg-12">
-              <Accordion name={alerts[0].name} body={alerts[0].body}/>
+             { alerts.map(function(alert) { return (
+                <Accordion name={alert.name} body={alert.body}/>
+             )}
+             )}
             </div>
           </div>
         </div>

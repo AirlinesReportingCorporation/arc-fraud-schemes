@@ -4,6 +4,8 @@ const alerts = [
   {
     name: "Urgent Updates: Phishing Email Impersonating Sabre",
     id: 1,
+    updated: "October 25, 2023",
+    anchor: "impersonatingsabre",
     body: (
       <>
         <p>
@@ -83,6 +85,40 @@ const alerts = [
           </a>
           to view the latest fraud awareness videos.
         </p>
+      </>
+    ),
+  },
+  {
+    name: "Tour Requests Scheme",
+    id: 2,
+    updated: "",
+    anchor:"tourrequest" ,
+    body: (
+      <>
+        <p>
+        ARC recently received, via an industry partner, raising concerns about an inquiry (via email) requiring your awareness and thorough assessment. The details of the request are as follows:
+        </p>
+        <em>
+          <p>Request Origin: China</p>
+          <p>Inquirer: Mr. Carson</p>
+          <p>Tour Details:</p>
+          <p>Group Size: A total of 160 persons, divided into two groups of 80 each.</p>
+          <p>First Group: Scheduled from 15th November 2023 to 21st November 2023.</p>
+          <p>Second Group: Scheduled from 24th November 2023 to 30th November 2023.</p>
+          <p>Inclusions: Accommodation (four-star or five-star hotel), transportation, scenic spot costs, insurance, meals, translation services, tour guides, and arrangements for transportation to the airport. <br/> Customization Request: The client wishes to customize the itinerary for their group.</p>
+        </em>
+        <p>This inquiry has raised several risk factors that require careful consideration:</p>
+        <ul>
+          <li><strong>Large Group Size</strong>: The request involves a substantial number of participants, which can pose financial risks.</li>
+          <li><strong>Lack of Detailed Contact Information</strong>: The initial communication lacks essential contact information, making verifying the inquiry's legitimacy difficult.</li>
+        </ul>
+        <p>Given these risk factors, we recommend the following actions:</p>
+        <ul>
+        <li><strong>Verification</strong>: Attempt to verify the authenticity of the inquiry and the identity of Mr. Carson. Seek additional contact information and conduct due diligence on the prospective client.</li>
+          <li><strong>Security Measures</strong>: Strengthen your cybersecurity measures to protect sensitive client data and financial transactions.</li>
+        </ul>
+        <p>We strongly suggest you exercise caution and conduct thorough risk assessments before proceeding with this inquiry. The high-risk nature of this request necessitates careful consideration to protect your company's interests and reputation.</p>
+        <p>Please keep us updated on your findings and decisions regarding this inquiry. If you have any questions or need more help, please don't hesitate to contact us at<a href="mailto:StopFraud@arccorp.com">StopFraud@arccorp.com</a>. Visit our<a href="https://www2.arccorp.com/articles-trends/on-demand-webinars/">on-demand webinar page</a>to view the latest fraud awareness videos.</p>
       </>
     ),
   },
