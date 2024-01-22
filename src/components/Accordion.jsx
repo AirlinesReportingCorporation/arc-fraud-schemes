@@ -38,15 +38,15 @@ export default function Accordion(props) {
                   <div className="row no-gutters">
                     <div className="col">
                       <div className="apSection apSectionMargin">
-                        <div className="apSectionTop">
+                       {props.updated != "" ?  <div className="apSectionTop">
                           <div className="d-flex align-items-center">
                             <div className="mr-1">
                               <div className="apUpdated">
-                                <span>Updated:</span> October 25, 2023
+                                <span>Updated:</span> {props.updated}
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> : ""}
                         <div className="apSectionBottom">
                           {props.body}
                         </div>
