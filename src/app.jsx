@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <div className="arc-fraud-schemes">
         <Stickynav
+        style={{zIndex: "8"}}
           title="Fraud Schemes"
           stickyCTA="Report Fraud"
           stickyCTALink="https://www2.arccorp.com/support-training/fraud-prevention/report-fraud/"
