@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Accordion from "./components/Accordion";
 
 import alerts from "./alerts.js";
-console.log(alerts[0].body)
 
 class App extends Component {
   constructor() {

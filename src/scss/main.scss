@@ -1,6 +1,8 @@
 //import all arccorp vars
 @use "~arccorp-vars/src/scss/main";
 
+@import "./partials/accordion";
+
 //page styles
 .arc-fraud-schemes {
   color: main.$tarmac;

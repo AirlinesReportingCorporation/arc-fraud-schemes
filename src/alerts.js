@@ -20,10 +20,10 @@ const alerts = [
           </li>
         </ul>
         <p>
-          If you receive a suspicious email from Sabre,
-          <strong>report it immediately by emailing Sabre</strong>
+          If you receive a suspicious email from Sabre, 
+          <strong> report it immediately by emailing Sabre </strong>
           <a href="mailto:customer.care@sabre.com">(customer.care@sabre.com)</a>
-          <strong>first and then ARC</strong>
+          <strong> first and then ARC </strong>
           <a href="mailto:stopfraud@arccorp.com">(stopfraud@arccorp.com)</a>.
         </p>
         <p>
@@ -31,12 +31,12 @@ const alerts = [
           email with the subject line “Sabre Technology Upgrade Notification.”
         </p>
         {/* Test Image, replace with actual fraud image */}
-        <image src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
         <p>
           If you receive a suspicious email from Sabre,
-          <strong>report it immediately by emailing Sabre</strong>
+          <strong> report it immediately by emailing Sabre </strong>
           <a href="mailto:customer.care@sabre.com">(customer.care@sabre.com)</a>
-          <strong>first and then ARC</strong>
+          <strong> first and then ARC </strong>
           <a href="mailto:stopfraud@arccorp.com">(stopfraud@arccorp.com)</a>.
         </p>
         <hr/>
@@ -54,13 +54,13 @@ const alerts = [
         </p>
         <p>
           If you receive a suspicious email from Sabre,
-          <strong>report it immediately by emailing Sabre</strong>
+          <strong> report it immediately by emailing Sabre </strong>
           <a href="mailto:customer.care@sabre.com">(customer.care@sabre.com)</a>
-          <strong>first and then ARC</strong>
+          <strong> first and then ARC </strong>
           <a href="mailto:stopfraud@arccorp.com">(stopfraud@arccorp.com)</a>.
         </p>
         {/* Test Image, replace with actual fraud image */}
-        <image src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
         <p>To address this issue, you should take the following steps:</p>
         <ul>
           <li><strong>Verify the Authenticity</strong>: Make sure that communication claiming to be from Sabre is legitimate. Double-check the sender's email address, domain and other identifying information.</li>
@@ -75,9 +75,9 @@ const alerts = [
           <li><strong>Stay Informed</strong>: Keep yourself updated on the latest security threats and best practices for protecting your organization from email impersonation and phishing attacks.</li>
         </ul>
         <p>
-          Please email ARC at
+          Please email ARC at 
           <a href="mailto:StopFraud@arccorp.com">StopFraud@arccorp.com</a> if
-          you need assistance, and visit our
+          you need assistance, and visit our 
           <a href="https://www2.arccorp.com/articles-trends/on-demand-webinars/">
             on-demand webinar page
           </a>

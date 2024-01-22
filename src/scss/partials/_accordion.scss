@@ -1,0 +1,78 @@
+// Top
+.airlinePartRow {
+    background: #f1f2f2;
+    margin: 0 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: background-color .5s,height .5s;
+}
+
+.airlinePartRow.active {
+    background: #212122;
+}
+
+.airlinePartRow.active .airlinePartName {
+    color: #fff;
+}
+
+.airlinePartRowTop {
+    font-family: SourceSansPro-Regular,Arial,Helvetica,sans-serif;
+    transition: .5s;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.airlinePartRowStart {
+    position: relative;
+    z-index: 5;
+    padding: 35px;
+    cursor: pointer;
+}
+
+.airlinePartName {
+    font-family: SourceSansPro-SemiBold,Arial,Helvetica,sans-serif;
+    color: #212122;
+    font-size: 30px;
+}
+
+
+// Arrow
+.fs-open {
+    background: url(https://www2.arccorp.com/globalassets/airline-participation/open.png) center center no-repeat;
+    width: 22px;
+    height: 14px;
+}
+
+.fs-close {
+    background: url(https://www2.arccorp.com/globalassets/airline-participation/close.png) center center no-repeat;
+    width: 22px;
+    height: 14px;
+}
+
+// Info
+.airlinePartRowInfo {
+    background: #212122;
+    position: relative;
+    display: none;
+    word-break: break-word;
+    z-index: 4;
+    transition: all .5s ease-in-out;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.airlinePartRowInfo.show {
+    display: block;
+    min-height: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #ddd;
+
+    ul, li {
+        color: #ddd;
+    }
+}

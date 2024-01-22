@@ -1,39 +1,40 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-export default class Accordion extends Component {
-  constructor(props) {
-    super(props);
-  }
+export default function Accordion(props) {
+  const [isShowing, setShowing] = useState(false);
 
-  
+ const toggleShow = () => {
+    setShowing(!isShowing);
+    console.log(isShowing)
+  };
 
-
-  render() {
-    return (
-        <div className="col-lg-12 show">
+  return (
+    <div className="col-lg-12 show">
+      <div>
         <div>
-          <div>
-            <div className="airlinePartRow active">
-              <div className="airlinePartRowTop">
-                <div className="airlinePartRowStart container-fluid">
-                  <div className="row align-items-center">
-                    <div className="col-11">
-                      <div className="d-flex flex-column flex-lg-row">
-                        <div className="">
-                          <div className="airlinePartName">
-                            {this.props.name}
-                          </div>
+          <div className={isShowing ? "airlinePartRow active" : "airlinePartRow"} onClick={toggleShow}>
+            <div className="airlinePartRowTop">
+              <div className="airlinePartRowStart container-fluid">
+                <div className="row align-items-center">
+                  <div className="col-11">
+                    <div className="d-flex flex-column flex-lg-row">
+                      <div className="">
+                        <div className="airlinePartName" id={props.anchor}>
+                          {props.name}
                         </div>
                       </div>
                     </div>
-                    <div className="col-1">
-                      <div>
-                        <div className="apExpand"><div className="ap-close"></div></div>
+                  </div>
+                  <div className="col-1">
+                    <div>
+                      <div className="apExpand">
+                        <div className={isShowing ? "fs-close" : "fs-open"}></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="airlinePartRowInfo show animated slideInDown">
+              </div>
+              <div className={isShowing? "airlinePartRowInfo show animated slideInDown" : "airlinePartRowInfo"}>
                   <div className="row no-gutters">
                     <div className="col">
                       <div className="apSection apSectionMargin">
@@ -47,17 +48,16 @@ export default class Accordion extends Component {
                           </div>
                         </div>
                         <div className="apSectionBottom">
-                          {this.props.body}
+                          {props.body}
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
