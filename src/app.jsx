@@ -5,6 +5,7 @@ import Accordion from "./components/Accordion";
 import { Stickynav } from "arccorp-vars";
 
 import alerts from "./alerts.js";
+import schemes from "./schemes.js";
 
 class App extends Component {
   constructor() {
@@ -16,7 +17,7 @@ class App extends Component {
   let newAlerts = alertOrder.map(function(alertOrder) {
     return(alerts[alertOrder - 1]);
   })
-  console.log(newAlerts);
+  // console.log(newAlerts);
     return (
       <div className="arc-fraud-schemes">
         <Stickynav
@@ -68,6 +69,7 @@ class App extends Component {
                 return (
                   <Accordion
                     key={alert.id}
+                    id={alert.id}
                     name={alert.name}
                     body={alert.body}
                     anchor={alert.anchor}
@@ -98,6 +100,22 @@ class App extends Component {
               Below you’ll find schemes that are commonly employed by
               fraudsters.
             </p>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              {schemes.map(function(scheme) {
+                return (
+                  <Accordion
+                    key={scheme.id}
+                    id={scheme.id}
+                    name={scheme.name}
+                    body={scheme.body}
+                    anchor={scheme.anchor}
+                    updated={scheme.updated}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
