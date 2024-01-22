@@ -33,8 +33,7 @@ const alerts = [
           fraudulent email with the subject line “Sabre Technology Upgrade
           Notification.”
         </p>
-        {/* Test Image, replace with actual fraud image */}
-        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic1.png" />
         <p>
           If you receive a suspicious email from Sabre,
           <strong> report it immediately by emailing Sabre </strong>
@@ -62,8 +61,7 @@ const alerts = [
           <strong> first and then ARC </strong>
           <a href="mailto:stopfraud@arccorp.com">(stopfraud@arccorp.com)</a>.
         </p>
-        {/* Test Image, replace with actual fraud image */}
-        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic2.png" /> <br/>
         <p>To address this issue, you should take the following steps:</p>
         <ul>
           <li>
@@ -428,15 +426,16 @@ const alerts = [
         <ol>
           <li>Phishing email claiming to be from Amadeus:</li>
         </ol>
-        {/* Test Image, replace with actual fraud image */}
-        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" /><br/>
-        {/* Test Image, replace with actual fraud image */}
-        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" /> 
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic3.png" /><br/>
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic4.png" /> 
+        <br/>
+        <br/>
         <ol start="2">
           <li>Phishing email claiming to be from Sabre:</li>
         </ol>
-        {/* Test Image, replace with actual fraud image */}
-        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/arc-reputation-check/matrix_231x170_arcreputationcheck_3.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic5.png" />
+        <br/>
+        <br/>
         <p>Ensure ALL staff, contractors and outside agents with ticket issuing capability know the phishing emails and the need to safeguard their GDS login credentials.</p>
         <p>GDS providers will never ask agents to log into their system through a link in an email.</p>
         <p>Always log into your GDS through bookmarks in your browser, not through an email link.</p>
