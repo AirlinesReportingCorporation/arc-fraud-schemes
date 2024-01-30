@@ -8,11 +8,7 @@
 }
 
 .airlinePartRow.active {
-    background: #212122;
-}
-
-.airlinePartRow.active .airlinePartName {
-    color: #fff;
+    background: #ddd !important;
 }
 
 .airlinePartRowTop {
@@ -23,7 +19,7 @@
     border-bottom-right-radius: 10px;
 }
 .airlinePartRow.active .airlinePartRowStart {
-    background: #212122;
+    background: #ddd;
 }
 .airlinePartRowStart {
     position: relative;
@@ -47,14 +43,15 @@
 }
 
 .fs-close {
-    background: url(https://www2.arccorp.com/globalassets/airline-participation/close.png) center center no-repeat;
+    background: url(https://www2.arccorp.com/globalassets/airline-participation/open.png) center center no-repeat;
     width: 22px;
     height: 14px;
+    transform: rotate(180deg);
 }
 
 // Info
 .airlinePartRowInfo {
-    background: #212122;
+    background: #ddd;
     position: relative;
     display: none;
     word-break: break-word;
@@ -72,10 +69,10 @@
     min-height: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #ddd;
+    color: #2a2b2c;
 
     ul, li {
-        color: #ddd;
+        color: #2a2b2c;
     }
 }
 
@@ -87,7 +84,7 @@
 }
 
 .apSection {
-    background: #2a2b2c;
+    background: #f1f2f2;
     padding: 20px;
     border-radius: 8px;
     height: 100%;
