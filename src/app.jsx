@@ -50,7 +50,7 @@ class App extends Component {
             >
               Fraud Prevention
             </a>
-            <h1>Fraud Schemes</h1>
+            <h1>Fraud Alerts & Schemes</h1>
             <p className="byline">
               Fraudsters are often creative in the schemes they devise to
               manipulate the customer service skills of travel agents.

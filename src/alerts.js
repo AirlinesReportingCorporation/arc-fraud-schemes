@@ -2,7 +2,7 @@ import React from "react";
 
 const alerts = [
   {
-    name: "Urgent Updates: Phishing Email Impersonating Sabre",
+    name: "Phishing Email Impersonating Sabre",
     id: 1,
     updated: "October 25, 2023",
     anchor: "impersonatingsabre",
@@ -414,7 +414,7 @@ const alerts = [
     ),
   },
   {
-    name: "NEW Emails Impersonating Amadeus and Sabre",
+    name: "NEW: Emails Impersonating Amadeus and Sabre",
     id: 6,
     updated: "",
     anchor: "impersonating-amadeus-sabre",
