@@ -94,3 +94,33 @@
   width: 100%;
   margin-bottom: 1rem;
 }
+
+.alert-header, .scheme-header {
+  border-radius: 10px;
+  padding: 45px 30px;
+  margin-bottom: 30px;
+  h2, p {
+    color: white;
+    padding-left: 15px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: normal;
+    max-width: 700px
+  }
+}
+
+.alert-header {
+  background-image: url("https://www2.arccorp.com/globalassets/support--training/fraud-prevention/fraudprevention_jumbotronstandard_1400x483.jpg");
+  background-blend-mode: overlay;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+
+}
+
+.scheme-header {
+  background-image: url("https://www2.arccorp.com/globalassets/support--training/fraud-prevention/fraudprevention_jumbotronstandard_1400x483.jpg");
+  background-blend-mode: overlay;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+
+}
