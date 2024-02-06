@@ -38,6 +38,7 @@ class App extends Component {
           links={[
             { title: "Alerts", url: "#alerts" },
             { title: "Schemes", url: "#schemes" },
+            {title: "Resources", url: "https://www2.arccorp.com/support-training/fraud-prevention/"}
           ]}
         />
         <div className="container">
