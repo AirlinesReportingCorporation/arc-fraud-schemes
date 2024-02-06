@@ -70,7 +70,7 @@ class App extends Component {
                   <h2 className="mainTitle">Alerts</h2>
                   <p>
                     Stay informed on the latest travel industry fraud with ARC's
-                    updates, providing essential tips to safeguard your
+                    updates, <br/> providing essential tips to safeguard your
                     business.
                   </p>
                 </div>
@@ -111,7 +111,7 @@ class App extends Component {
                   <h2 className="mainTitle">Schemes</h2>
                   <p>
                     Learn how fraudsters deceive travel agents, gaining insights
-                    to protect your business. Below, you'll find a list of
+                    to protect your <br/> business. Below, you'll find a list of
                     tactics frequently employed by fraudsters.
                   </p>
                 </div>
