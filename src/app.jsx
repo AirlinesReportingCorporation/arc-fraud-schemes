@@ -63,6 +63,14 @@ class App extends Component {
             >
               Report Fraud
             </a>
+            <div class="twoButtons__spacer"></div>
+            <a
+              href="https://www2.arccorp.com/support-training/fraud-prevention/"
+              title="Report Fraud"
+              className="ctaBtn ctaBtn--secondary"
+            >
+              Resources
+            </a>
           </div>
           <div className="fraud-alerts" id="alerts">
             <div className="row">

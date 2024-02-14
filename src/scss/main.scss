@@ -99,7 +99,22 @@
   a.ctaBtn {
     margin-top: 0px;
   }
+
+  div.twoButtons__spacer {
+      display: none;
+  }
+
+  a.ctaBtn--secondary {
+    color: #089bb0;
+    margin-left: 0.625rem;
+  }
+
+  a.ctaBtn--secondary:hover{
+    color: #20b8d1;
+  }
 }
+
+
 
 .parentLink {
   font-size: 18px;
