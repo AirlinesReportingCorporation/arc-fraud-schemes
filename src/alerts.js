@@ -414,7 +414,7 @@ const alerts = [
     ),
   },
   {
-    name: "NEW: Emails Impersonating Amadeus and Sabre",
+    name: "Emails Impersonating Amadeus and Sabre",
     id: 6,
     updated: "",
     anchor: "impersonating-amadeus-sabre",
