@@ -448,6 +448,31 @@ const alerts = [
       </>
     ),
   },
+  {
+    name: "NEW FRAUD ALERT: Additional Emails Impersonating Sabre",
+    id: 7,
+    updated: "",
+    anchor: "emails-impersonating-sabre",
+    body: (
+      <>
+        <p>
+        A fraudster continues to send phishing emails to the travel agency community, falsely claiming to be from Sabre. The phishing email entices the recipient to click the green “Sign-In” link and input the user’s GDS login credentials.
+        </p>
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic6.png" />
+        <br/>
+        <br/>
+        <p>Ensure ALL staff, contractors, and outside agents with ticket issuing capability know the phishing emails and the need to safeguard their GDS login credentials.</p>
+        <p>GDS providers will <u>never</u> ask agents to log into their system through a link in an email.</p>
+        <p>Always log into your GDS through bookmarks in your browser, <u>not</u> through an email link. </p>
+        <p>
+        Visit the <a href="https://www2.arccorp.com/support-training/fraud-prevention/">ARC website</a> for more information on <a href="https://www2.arccorp.com/articles-trends/the-latest/unauthorized-ticketing-fraud/">unauthorized ticketing</a> and to view our <a href="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/cybersecurity_guide.pdf">Cybersecurity Guide</a> and <a href="https://www2.arccorp.com/support-training/fraud-prevention/fraud-on-demand-webinars/">on-demand webinars</a>.
+        </p>
+        <p>
+        ARC’s revenue integrity team is here for fraud-related support. If you suspect you have been a victim of fraud, contact ARC immediately by calling 855-358-0393 or emailing  <a href="mailto:stopfraud@arccorp.com" target="_blank" rel="noreferrer noopener">stopfraud@arccorp.com</a>. We also offer <a href="https://www2.arccorp.com/support-training/fraud-prevention/report-fraud/">after-hours and weekend support</a>. 
+        </p>
+      </>
+    ),
+  },
 ];
 
 export default alerts;

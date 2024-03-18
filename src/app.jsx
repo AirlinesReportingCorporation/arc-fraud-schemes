@@ -20,7 +20,7 @@ class App extends Component {
 
   render() {
     // Set the order of the Array
-    let alertOrder = [6, 1, 2, 3, 4, 5];
+    let alertOrder = [7, 1, 2, 3, 4, 5, 6,];
     let newAlerts = alertOrder.map(function (alertOrder) {
       return alerts[alertOrder - 1];
     });
