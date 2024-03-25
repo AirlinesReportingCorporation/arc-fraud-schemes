@@ -459,6 +459,7 @@ const alerts = [
         A fraudster continues to send phishing emails to the travel agency community, falsely claiming to be from Sabre. The phishing email entices the recipient to click the green “Sign-In” link and input the user’s GDS login credentials.
         </p>
         <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic6.png" />
+        <img src="https://www2.arccorp.com/globalassets/support--training/fraud-prevention/schemes/alert-pic7.png" />
         <br/>
         <br/>
         <p>Ensure ALL staff, contractors, and outside agents with ticket issuing capability know the phishing emails and the need to safeguard their GDS login credentials.</p>
